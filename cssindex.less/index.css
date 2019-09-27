@@ -171,11 +171,11 @@ img {
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
-  background: #FFEBCD;
+  background: #131212;
 }
 .footer p {
   text-align: center;
-  color: #212529;
+  color: black;
   font-size: 1.6rem;
   padding: 20px;
 }
@@ -198,7 +198,7 @@ img {
 }
 .home .inverse-content {
   padding-bottom: 30px;
-  border-bottom: 2px dashed #C0C0C0;
+  border-bottom: 2px dashed 1px solid black;
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -217,11 +217,14 @@ img {
 }
 .home .content-pick {
   padding-top: 30px;
-  border-top: 2px dashed #C0C0C0;
+  border-top: 2px dashed 1px solid black;
   display: flex;
   justify-content: space-between;
 }
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+.html {
+  background: red;
 }
