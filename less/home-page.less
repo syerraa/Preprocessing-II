@@ -6,6 +6,12 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    @media @mobile{
+      display:flex;
+      flex-direction:column;
+      align-items:center;
+      margin:30px 20px 20px 20px;
+    }
 
    
     
@@ -17,10 +23,16 @@
     .img-content {
       width: 48%;
       padding-left: 1%;
+      @media @mobile{
+        width: 100%;
+      }
 
       img {
         border-radius: 10px;
       }
+    }
+    p{
+      border-bottom:2px dashed grey;
     }
   }
 
@@ -54,6 +66,15 @@
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
+    @media @mobile{
+      margin: 30px 49px 50px -130px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 164%;
+      padding: 20px 11px 0px 0px;
+      
+    }
 
     .destination {
       width: 30%;
@@ -63,8 +84,8 @@
       padding:10px 40px;
       border:1px solid black;
       border-radius:10px;
-      background-color:teal;
-      color:white;
+      .custombutton(teal,white);
+    
       cursor:pointer;
       font-size:@fontsize1;
       text-align:center;
