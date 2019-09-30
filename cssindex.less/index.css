@@ -145,16 +145,6 @@ h5 {
 }
 h1 {
   font-size: 4rem;
-  border-bottom: 2px dashed gray;
-  padding: 0px 490px 40px 10px;
-}
-@media (max-width:500px) {
-  h1 {
-    display: flex;
-    justify-content: center;
-    margin: 40px -520px 0px -70px;
-    padding: -10px 430px 20px -20px;
-  }
 }
 h2 {
   font-size: 3.2rem;
@@ -178,35 +168,13 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-nav {
-  display: flex;
-  justify-content: flex-end;
-}
-@media (max-width:500px) {
-  nav {
-    justify-content: center;
-    align-items: center;
-    margin: 70px 30px -50px 30px;
-    margin: 20px 0px -120px -30px;
-  }
-}
-header nav a {
-  margin: 48px 16px -28px 13px;
+nav a {
   text-decoration: none;
-  color: black;
-  font-size: 18px;
-}
-@media (max-width:500px) {
-  header nav a {
-    padding: 0px 30px 0px 10px;
-    margin: 30px 20px 21px 10px;
-    margin-bottom: 10px;
-  }
 }
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
-  background: #fedbb7;
+  background: #131212;
 }
 .footer p {
   text-align: center;
@@ -220,14 +188,6 @@ header nav a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-@media (max-width:500px) {
-  .home .content-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 30px 20px 20px 20px;
-  }
-}
 .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
@@ -236,20 +196,12 @@ header nav a {
   width: 48%;
   padding-left: 1%;
 }
-@media (max-width:500px) {
-  .home .content-section .img-content {
-    width: 100%;
-  }
-}
 .home .content-section .img-content img {
   border-radius: 10px;
 }
-.home .content-section p {
-  border-bottom: 2px dashed grey;
-}
 .home .inverse-content {
   padding-bottom: 30px;
-  border-bottom: 2px dashed grey;
+  border-bottom: 2px dashed 1px solid black;
 }
 .home .inverse-content .text-content {
   padding-left: 1%;
@@ -268,31 +220,11 @@ header nav a {
 }
 .home .content-pick {
   padding-top: 30px;
-  border-top: 2px dashed grey;
+  border-top: 2px dashed 1px solid black;
   display: flex;
   justify-content: space-between;
-}
-@media (max-width:500px) {
-  .home .content-pick {
-    margin: 30px 49px 50px -130px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    width: 164%;
-    padding: 20px 11px 0px 0px;
-  }
 }
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
-}
-.home .content-pick .destination .btn {
-  padding: 10px 40px;
-  border: 1px solid black;
-  border-radius: 10px;
-  background-color: teal;
-  color: white;
-  cursor: pointer;
-  font-size: 18px;
-  text-align: center;
 }
